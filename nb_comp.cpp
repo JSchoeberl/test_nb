@@ -17,10 +17,7 @@ NB_MODULE(comp, m) {
   py::class_<FESpace> (m, "FESpace")
     ;
 
-  /*
   py::class_<H1HighOrderFESpace, FESpace> (m, "H1")
     .def(py::init<std::shared_ptr<MeshAccess>, Flags>())
     ;
-  */
-
 }
