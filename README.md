@@ -16,3 +16,6 @@ Define derived python class (e.g. Preconditioner), pass reference to it to C++, 
 Create static or shared nanobind, ship it with netgen and reuse it when building ngsolve?
 Is it fine to link static nanobind to multiple libs?
 Symbol visibility of nanobind?
+
+#### Pickling support
+Similar to pybind11? Fespaces pickling?
