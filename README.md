@@ -4,7 +4,8 @@ First experiments with nanobind
 
 ## Needed testing
 ### Check for [removed features](https://nanobind.readthedocs.io/en/latest/porting.html#removed)
-- [ ] No support for Multiple inheritance
+- [ ] No support for Multiple inheritance used in
+        BaseMatrix -> S_BaseMatrix<SCAL> ... started to remove
 - [ ] Python 3.8
 - [ ] No support for custom allocators (overloaded new/delete)
 
